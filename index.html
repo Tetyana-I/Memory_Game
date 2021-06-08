@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <form id="user-panel">
+        <h3 id="score">Current User Score: </h3>
+        <h3 id="best-score">Best User Score: </h3>
+        <label for="number-of-cards">Enter a number of cards (4-30):</label>
+        <input type="number" id="number-of-cards" min="4" max="30" step="2" value="10">
+        <button type="submit" id="startBtn">New Game</button>
+    </form>
+
+    <div id="game">
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
